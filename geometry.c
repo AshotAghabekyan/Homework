@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-static int width = 0;
-static int height = 0;
+static unsigned short int width = 0;
+static unsigned short int height = 0;
 void width_func1(void);
 void width_func2(void);
 
@@ -9,9 +9,9 @@ int main(){
     int i = 0;
 
     printf("Enter width\n"); // Stanum enq laynutyuny ev bardcrutyuny
-    scanf("%d", &width);
+    scanf("%hd", &width);
     printf("Now, enter height\n");
-    scanf("%d", &height);
+    scanf("%hd", &height);
      
  
  /* loop-i nersum sahmanum enq <i> popoxakani arjeqy ev vorpes katarman payman sahmanum
