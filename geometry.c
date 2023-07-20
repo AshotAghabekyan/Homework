@@ -6,7 +6,7 @@ void width_func1(void);
 void width_func2(void);
 
 int main(){
-    int i, j = 0;
+    int i = 0;
 
     printf("Enter width\n"); // Stanum enq laynutyuny ev bardcrutyuny
     scanf("%d", &width);
